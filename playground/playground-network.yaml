@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: sbelondr-playground-svc
+            name: playground-svc
             port:
               number: 8888

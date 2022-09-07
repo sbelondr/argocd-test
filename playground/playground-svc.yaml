@@ -4,7 +4,7 @@ metadata:
   name: playground-svc
   namespace: dev
   labels:
-    app: playground-deployment
+    app: playground
 spec:
   externalTrafficPolicy: Local
   ports:
@@ -13,5 +13,5 @@ spec:
     protocol: TCP
     targetPort: 8888
   selector:    
-    app: playground-deployment
+    app: playground
   type: NodePort
