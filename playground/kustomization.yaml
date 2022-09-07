@@ -1,4 +1,4 @@
-namePrefix: kustomize-
+#namePrefix: sbelondr-
 
 resources:
 - playground-deployment.yaml
